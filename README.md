@@ -1,4 +1,4 @@
-# Fox AI
+# Fox AI (AI Interview Helper similar like Parakeet AI)
 
 **Open-source, BYOK (bring-your-own-key) desktop assistant for live transcription + AI answers.**
 Electron · React · TypeScript · Vite.
