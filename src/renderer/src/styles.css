@@ -1,0 +1,31 @@
+:root { color-scheme: dark light; font: 14px system-ui, sans-serif; }
+body { margin: 0; background: #14161a; color: #e6e6e6; }
+.app { display: flex; flex-direction: column; height: 100vh; }
+header { display: flex; justify-content: space-between; align-items: center; padding: 8px 12px; border-bottom: 1px solid #2a2d33; }
+nav button.on { background: #3b82f6; color: #fff; }
+main { flex: 1; overflow: auto; padding: 12px; display: flex; flex-direction: column; gap: 12px; }
+button { background: #2a2d33; color: inherit; border: 0; border-radius: 6px; padding: 6px 10px; cursor: pointer; }
+button.primary { background: #16a34a; color: #fff; }
+button.danger { background: #dc2626; color: #fff; }
+.row { display: flex; gap: 8px; flex-wrap: wrap; }
+.row input { flex: 1; }
+.error { background: #7f1d1d; padding: 8px 12px; }
+.answer { background: #1c1f26; border-radius: 8px; padding: 10px 12px; min-height: 120px; }
+.answer .q { font-weight: 600; margin-bottom: 6px; }
+.answer pre { overflow: auto; background: #0e1013; padding: 8px; border-radius: 6px; }
+.transcript { flex: 1; font-size: 13px; }
+.transcript em { font-style: normal; font-weight: 600; margin-right: 6px; }
+.transcript .me em { color: #60a5fa; } .transcript .other em { color: #fbbf24; }
+.muted { opacity: .6; } .ok { color: #4ade80; }
+.settings label { display: flex; flex-direction: column; gap: 4px; }
+.settings label.check { flex-direction: row; align-items: center; }
+input, select, textarea { background: #1c1f26; color: inherit; border: 1px solid #2a2d33; border-radius: 6px; padding: 6px 8px; font: inherit; }
+.p { padding: 12px; }
+button:disabled { opacity: .45; cursor: default; }
+button.session { text-align: left; width: 100%; }
+main.compact .transcript { display: none; }
+input[type=range] { padding: 0; }
+.meter { font-size: 12px; display: flex; flex-direction: column; gap: 3px; }
+.meter div { height: 6px; background: #2a2d33; border-radius: 3px; overflow: hidden; }
+.meter i { display: block; height: 100%; background: #22c55e; transition: width .08s; }
+.meter span { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; min-height: 16px; }

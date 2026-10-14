@@ -1,0 +1,19 @@
+node_modules
+out
+dist
+
+# local env / secrets
+.env
+.env.*
+!.env.example
+
+# logs
+*.log
+npm-debug.log*
+
+# os / editor junk
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
